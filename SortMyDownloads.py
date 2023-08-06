@@ -1,14 +1,13 @@
 #downloads folder organizer
 #organizes files in downloads folder into folders based on file type
 #created by: @ThisNotDog
-#created on: 10/10/2021
-#last updated: 10/10/2021
+#last updated: 10/10/2023
 
 import os
 import shutil
 
 #path to downloads folder
-path = "C:/Users/strat/Downloads"
+path = "C:/Users/[username]/Downloads"
 
 #list of file types
 file_types = [
@@ -52,6 +51,4 @@ for file in os.listdir(path):
 
 print("Done!")
 
-#turn script into an executable without an icon
-#pyinstaller --onefile --noconsole main.py
 
